@@ -1,7 +1,7 @@
-import React, {useState, usestate} from "react";
+import React, { useState } from "react";
 
-function PlantCard({plant}) {
-  const [inStock, setInStock] = useState();
+function PlantCard({ plant }) {
+  const [inStock, setInStock] = useState(false);  
   return (
     <li className="card" data-testid="plant-item">
       <img src={plant.image} alt={plant.name} />
