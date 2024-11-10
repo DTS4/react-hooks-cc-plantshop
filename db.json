@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Aloe Vera",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/vibrant-green-potted-plant-blooms-inside-bringing-a-royalty-free-image-1727983902.jpg?crop=0.44444xw:1xh;center,top&resize=980:*",
+      "price": "10.99",
+      "id": 8
+    },
+    {
+      "name": "Flowers",
+      "image": "https://images.ctfassets.net/zma7thmmcinb/5t3XK5aD2RPFtBufctbBE3/8bd3a257d37147cb61d81075aac99dd5/how-to-grow-dahlias-pv-Nicholas.jpg",
+      "price": "100.01",
+      "id": 9
     }
   ]
 }
