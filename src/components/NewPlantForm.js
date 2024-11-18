@@ -14,7 +14,7 @@ function NewPlantForm({ onAddPlant }) {
     });
   }
 
-   function handleSubmit(e) {
+  function handleSubmit(e) {
     e.preventDefault();
     fetch("http://localhost:6001/plants", {
       method: "POST",
@@ -27,8 +27,10 @@ function NewPlantForm({ onAddPlant }) {
       .then((newPlant) => {
         onAddPlant(newPlant);
         setFormData({ name: "", image: "", price: "" });
-      });
+      })
+      .catch((error) => alert("Failed to add plant. Please try again."));
   }
+
   return (
     <div className="new-plant-form">
       <h2>New Plant</h2>
